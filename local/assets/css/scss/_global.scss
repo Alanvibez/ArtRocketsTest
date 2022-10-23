@@ -1,0 +1,51 @@
+// Container
+.container {
+    max-width: 1800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+// Body Locked
+body {
+
+    &.locked {
+        overflow: hidden;
+    }
+}
+
+
+.point{
+        font-family: $fontSecondary;
+        font-weight: 400;
+        font-size: 12px;
+        text-transform: uppercase;
+        position: relative;
+        margin-left: 12px;
+        color: #111C4E;
+        &::before{
+            content: '';
+            display: block;
+            position: absolute;
+            width: 4px;
+            height: 4px;
+            background-color: $orange;
+            top: 4px;
+            left: -10px;
+            border-radius: 100%;
+        }
+    }
+
+   
+
+
+// Animations
+// Fade
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,24 @@
+@import 'fonts';
+@import 'vars';
+@import 'global';
+@import 'reset';
+@import '../components/customlink';
+@import '../components/header';
+@import '../components/main';
+@import '../components/about';
+
+.hero{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper{
+    background-color: $bg;
+}
+
+
+
+
+
